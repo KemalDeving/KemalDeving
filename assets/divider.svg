@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+<style>.m{animation:mv 4s linear infinite}@keyframes mv{from{transform:translateX(-120px)}to{transform:translateX(900px)}}</style>
+<defs><linearGradient id="gg"><stop offset="0" stop-color="#39ff88" stop-opacity="0"/><stop offset=".5" stop-color="#39ff88"/><stop offset="1" stop-color="#39ff88" stop-opacity="0"/></linearGradient></defs>
+<line x1="0" y1="12" x2="900" y2="12" stroke="#39ff88" stroke-opacity=".18"/>
+<rect class="m" x="0" y="11" width="120" height="2" fill="url(#gg)"/>
+<text x="450" y="16" text-anchor="middle" fill="#39ff88" fill-opacity=".6" style="font-family:monospace;font-size:11px" letter-spacing="3">◆ ◆ ◆</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<defs><filter id="fglow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feFlood flood-color="#39ff88" flood-opacity=".55"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>text{ font-family:'JetBrains Mono','Fira Code',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace }.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect x=".5" y=".5" width="1199" height="119" rx="12" fill="#07090b" stroke="#39ff88" stroke-opacity=".3"/>
+<g transform="translate(40,34) scale(1.3) translate(-6,-17)" filter="url(#fglow)">
+  <polygon points="11,26 23,26 33,36 22,36 16.5,30.5 7,30.5" fill="#a3a3a3"/>
+  <polygon points="11,26 16.5,30.5 7,30.5" fill="#6b6b6b"/>
+  <polygon points="23,35.6 34,35.6 35,36.8 24,36.8" fill="#7a7a7a"/>
+  <polygon points="34,36.2 43.5,36.2 50,43 40.5,43" fill="#9a9a9a"/>
+  <polygon points="41,18 58.5,18 40.5,36 23,36" fill="#f4f4f4"/>
+</g>
+<text x="150" y="56" fill="#eafff3" font-weight="700" style="font-size:18px">connection closed by remote host.</text>
+<text x="150" y="84" fill="#5b6b62" style="font-size:13px">found a vulnerability? responsible disclosure welcome . kagusoftware.com<tspan class="cur" fill="#39ff88"> █</tspan></text>
+<text x="1176" y="70" text-anchor="end" fill="#39ff88" style="font-size:12px" letter-spacing="3">EOF</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="456" viewBox="0 0 900 456">
+<style>
+text{ font-family:'JetBrains Mono','Fira Code',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:15px }
+.ly{opacity:0;animation:up .5s ease-out forwards}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.st{animation:blink 2s steps(1) infinite}
+@keyframes blink{50%{opacity:.3}}
+.core{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.4}}
+</style>
+<rect x=".5" y=".5" width="899" height="455" rx="12" fill="#07090b" stroke="#39ff88" stroke-opacity=".35"/>
+<text x="24" y="38" fill="#5b6b62" letter-spacing="3" style="font-size:12px">// DEFENSE IN DEPTH . HOW EVERY KAGU PRODUCT GETS LOCKED DOWN</text>
+<g class="ly" style="animation-delay:0.20s">
+<rect x="20.0" y="70" width="860" height="46" rx="6" fill="#0c1310" stroke="#22d3ee" stroke-opacity=".55"/>
+<rect x="20.0" y="70" width="4" height="46" rx="2" fill="#22d3ee"/>
+<text x="38.0" y="99" fill="#22d3ee" font-weight="700">L0</text>
+<text x="80.0" y="99" fill="#eafff3" font-weight="700" letter-spacing="2">EDGE</text>
+<text x="190.0" y="99" fill="#c9d6cf" style="font-size:13px">HTTPS everywhere, security headers, rate limits on public routes</text>
+<text x="866.0" y="99" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g><g class="ly" style="animation-delay:0.45s">
+<rect x="31.0" y="126" width="838" height="46" rx="6" fill="#0c1310" stroke="#39ff88" stroke-opacity=".55"/>
+<rect x="31.0" y="126" width="4" height="46" rx="2" fill="#39ff88"/>
+<text x="49.0" y="155" fill="#39ff88" font-weight="700">L1</text>
+<text x="91.0" y="155" fill="#eafff3" font-weight="700" letter-spacing="2">IDENTITY</text>
+<text x="201.0" y="155" fill="#c9d6cf" style="font-size:13px">Supabase Auth, public signups off where not needed</text>
+<text x="855.0" y="155" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g><g class="ly" style="animation-delay:0.70s">
+<rect x="42.0" y="182" width="816" height="46" rx="6" fill="#0c1310" stroke="#39ff88" stroke-opacity=".55"/>
+<rect x="42.0" y="182" width="4" height="46" rx="2" fill="#39ff88"/>
+<text x="60.0" y="211" fill="#39ff88" font-weight="700">L2</text>
+<text x="102.0" y="211" fill="#eafff3" font-weight="700" letter-spacing="2">ACCESS</text>
+<text x="212.0" y="211" fill="#c9d6cf" style="font-size:13px">role checks on the server, never only hidden in the UI</text>
+<text x="844.0" y="211" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g><g class="ly" style="animation-delay:0.95s">
+<rect x="53.0" y="238" width="794" height="46" rx="6" fill="#0c1310" stroke="#39ff88" stroke-opacity=".55"/>
+<rect x="53.0" y="238" width="4" height="46" rx="2" fill="#39ff88"/>
+<text x="71.0" y="267" fill="#39ff88" font-weight="700">L3</text>
+<text x="113.0" y="267" fill="#eafff3" font-weight="700" letter-spacing="2">DATA</text>
+<text x="223.0" y="267" fill="#c9d6cf" style="font-size:13px">Postgres RLS on every table, public views hold no secrets</text>
+<text x="833.0" y="267" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g><g class="ly" style="animation-delay:1.20s">
+<rect x="64.0" y="294" width="772" height="46" rx="6" fill="#0c1310" stroke="#ff2e88" stroke-opacity=".55"/>
+<rect x="64.0" y="294" width="4" height="46" rx="2" fill="#ff2e88"/>
+<text x="82.0" y="323" fill="#ff2e88" font-weight="700">L4</text>
+<text x="124.0" y="323" fill="#eafff3" font-weight="700" letter-spacing="2">SECRETS</text>
+<text x="234.0" y="323" fill="#c9d6cf" style="font-size:13px">service keys stay server-side, no secrets in git</text>
+<text x="822.0" y="323" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g><g class="ly" style="animation-delay:1.45s">
+<rect x="75.0" y="350" width="750" height="46" rx="6" fill="#0c1310" stroke="#39ff88" stroke-opacity=".55"/>
+<rect x="75.0" y="350" width="4" height="46" rx="2" fill="#39ff88"/>
+<text x="93.0" y="379" fill="#39ff88" font-weight="700">L5</text>
+<text x="135.0" y="379" fill="#eafff3" font-weight="700" letter-spacing="2">CODE</text>
+<text x="245.0" y="379" fill="#c9d6cf" style="font-size:13px">typed end to end, validated input, reviewed migrations</text>
+<text x="811.0" y="379" text-anchor="end" fill="#39ff88" style="font-size:12px" class="st">■ ARMED</text>
+</g>
+<text x="450" y="432" text-anchor="middle" class="core" fill="#39ff88" letter-spacing="4" style="font-size:13px">[ CORE: YOUR USERS' DATA ]</text>
+</svg>
